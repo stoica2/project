@@ -1,0 +1,24 @@
+Test Instructions:
+1. Create a folder labeled "stoica_bcog_project" that will contain the python file and, eventually, the csv file.
+2. Run program.
+3. Select "Input Data" option.
+4. Input the following 7 dates as integers in the mm/dd/yyyy format:
+	06/01/2038
+	06/02/2038
+	06/03/2038
+	06/04/2038
+	06/05/2038
+	06/06/2038
+	06/07/2038
+5. A list of emotions will pop up for each day. For each day and each emotion, input the following example data. If no data is inputted, it will automatically store the value as 0: 
+	Day 1) Sadness 1, Fear 2, Joy 2, Surprise 2, Shame 2, Guilt 1
+	Day 2) Sadness 2, Fear 3, Joy 2, Surprise 2, Shame 2, Guilt 1
+	Day 3) Anger 1, Sadness 2, Fear 3, Joy 1, Surprise 3, Disgust 1, Contempt 1, Shame 1
+	Day 4) Sadness 1, Fear 2, Joy 2, Surprise 2, Guilt 1
+	Day 5) Fear 3, Joy 5, Surprise 4, Contempt 1
+	Day 6) Fear 2, Joy 5, Surprise 3, Contempt 1
+	Day 7) Fear 1, Joy 5, Surprise 2
+6. Press the "Return" Button, the "Exit" button will close the application and would require the program to be run again.
+7. You should now be on the opening screen again, select the "View Data" option.
+8. A plot should display with a visualization of the data that was just inputted.
+
