@@ -1,0 +1,36 @@
+input data or view data?
+
+main function
+	call gui
+	call input_data and view_data based on response (if, else)
+
+gui function
+	create tkinter object
+	create three screens
+		opening
+		input
+		view
+	load opening screen
+
+input_data function
+	call gui function
+		load input screen
+	open csv file
+	
+***************
+	with open(file_path, "a") as file:		// will create a file if needed, but will append if the file does already exist
+***************
+
+	ask user for data
+	input tuples
+		x = day, y = mood rating
+	put in file
+	close application (via button)
+	
+
+view_data function
+	call gui function
+		load view screen
+	read csv file: must be stored in same folder as python file
+	plot
+		mess around with labels, colors, etc.
